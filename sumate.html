@@ -24,7 +24,7 @@
 </head>
 
 <body class="landing-page" style="background-color: #174468; font-family: Arial, Helvetica, sans-serif">
-    <nav class="navbar navbar-danger navbar-transparent navbar-absolute" style="color: white">
+    <nav class="navbar navbar-danger navbar-transparent navbar-absolute" style="color: #174468;">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -74,63 +74,37 @@
 
 
 
-    <div class="page-header header-filter" data-parallax="true"
-        style="background-image: url('../assets/img/bg8_old.jpg');">
-        <div class="container">
+    <div class="page-header" data-parallax="true" style="background-image: url('../assets/img/fondo-sumate.jpg');">
+
+        <div class="container" style="padding-top: 156px;">
             <div class="row">
-                <div class="col-md-6">
-                    <h3 class="title" style="font-family: Arial, Helvetica, sans-serif;">Necesitamos de tu aporte para
-                        esta necesaria misión. <br>Se parte de ORIGEN.
-                        Escríbenos y cuéntanos como puedas ayudarnos. </h3>
+                <div class="col-md-10 col-md-offset-1">
+                    <h2 class="title"
+                        style="font-weight: normal; font-family: Arial, Helvetica, sans-serif; text-align: center;">
+                        <span style="border: solid; border-width: 1px; padding-top: 5px;
+                        padding-bottom: 3px;">&nbsp SÚMATE &nbsp</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2 class="title"
+                        style="text-align: center; margin-top: 20px; font-weight: normal; font-family: Arial, Helvetica, sans-serif;">
+                        Necesitamos de tu aporte para
+                        esta necesaria misión. <br> Se parte de ORIGEN. 
+                        Escríbenos y cuéntanos como puedes aportar. </h2>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="main main-raised">
-        <div class="container">
+    <div class="main main-raised" style="background-color: #EA5944; top: -80px">
+        <div class="container contenido">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-8 col-md-offset-2">
                     <div>
-                        <h2 class="title">Envíanos un mensaje.</h2>
+                        <h2 class="title" style="text-align: center;">Envíanos un mensaje.</h2>
                     </div>
                     <div id="formulario"></div>
-                </div>
-                <div class="col-md-4 col-md-offset-2">
-                    <div class="info info-horizontal" style="padding-top: 80px; padding-bottom: 2px;">
-                        <div class="icon icon-primary">
-                            <i class="material-icons">pin_drop</i>
-                        </div>
-                        <div class="description">
-                            <h4 class="info-title">Nuestra dirección</h4>
-                            <p> Bld Mihail Kogalniceanu, nr. 8,<br>
-                                7652 Bucharest,<br>
-                                Romania
-                            </p>
-                        </div>
-                    </div>
-                    <div class="info info-horizontal" style="padding-top: 5px;">
-                        <div class="icon icon-primary">
-                            <i class="material-icons">phone</i>
-                        </div>
-                        <div class="description">
-                            <h4 class="info-title">Teléfono</h4>
-                            <p>
-                                954647957
-                            </p>
-                        </div>
-                    </div>
-                    <div class="info info-horizontal" style="padding-top: 5px;">
-                        <div class="icon icon-primary">
-                            <i class="material-icons">email</i>
-                        </div>
-                        <div class="description">
-                            <h4 class="info-title">Nuestro correo</h4>
-                            <p>
-                                info@origen.org.pe
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -202,6 +176,17 @@
 
 </html>
 <style>
+    @media (min-width: 1200px) {
+        .container.contenido {
+            width: 900px;
+        }
+
+        .main-raised {
+            margin: -60px 200px 0px;
+        }
+
+    }
+
     @media (min-width: 992px) {
         .navbar .navbar-collapse {
             text-align: center;
@@ -237,7 +222,19 @@
     h4,
     h5,
     h6 {
-        font-family: Arial, Helvetica, sans-serif !important; 
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+
+    .form-group label.control-label {
+        color: #174468;
+    }
+
+    .form-group.is-focused .form-control {
+        background-image: linear-gradient(#174468, #174468), linear-gradient(#D2D2D2, #D2D2D2);
+    }
+
+    p.description {
+        color: #174468;
     }
 </style>
 <style>
