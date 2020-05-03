@@ -246,7 +246,7 @@ var Formulario = function (_React$Component) {
                         'Al hacer click en "Enviar" acepto la ',
                         React.createElement(
                             'a',
-                            { href: 'politica-privacidad' },
+                            { href: 'politica-privacidad.pdf' },
                             'pol\xEDtica de privacidad'
                         ),
                         ' y el env\xEDo de informaci\xF3n a ORIGEN.'
